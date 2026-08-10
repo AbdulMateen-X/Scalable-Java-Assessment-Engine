@@ -21,6 +21,7 @@ A scalable, console-based Java assessment engine built using core Object-Oriente
 * Custom Exception Handling
 
 ## Project Structure
+```text
 ├── Main.java                        # The application entry point handling menu navigation and user routing
 ├── QuizService.java                 # Contains the core logic for executing quizzes, capturing input, and evaluating answers
 ├── UserService.java                 # Handles file reading and writing for user registration, login, and data persistence
@@ -30,6 +31,7 @@ A scalable, console-based Java assessment engine built using core Object-Oriente
 ├── User.java                        # Data model representing user profile state
 ├── QuizResult.java                  # Data model representing user performance state
 └── InvalidQuizInputException.java   # Custom exception class for input validation
+```
 
 ## How to Run
 1. Clone this repository to your local machine.
